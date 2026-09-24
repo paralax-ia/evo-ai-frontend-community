@@ -1,7 +1,7 @@
 import type { CSSProperties } from 'react';
 import { useDarkMode } from '../hooks/useDarkMode';
-import logoDark from '../assets/EVO_CRM.svg';
-import logoLight from '../assets/EVO_CRM_light.svg';
+import logoDark from '../assets/paralax_logo.svg';
+import logoLight from '../assets/paralax_logo_light.svg';
 
 interface AppLogoProps {
   className?: string;
