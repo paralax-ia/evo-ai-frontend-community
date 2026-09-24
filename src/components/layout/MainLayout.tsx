@@ -109,10 +109,6 @@ export default function MainLayout({ children }: MainLayoutProps) {
 
   return (
     <div className="flex flex-col h-dvh bg-background transition-colors duration-150 ease-in-out">
-      {/* Version Banner */}
-      <div className="bg-primary/90 text-primary-foreground text-[10px] text-center py-0.5 uppercase tracking-widest font-semibold">
-        Paralax IA - Versão {__APP_VERSION__}
-      </div>
 
       {/* Header */}
       <Header
